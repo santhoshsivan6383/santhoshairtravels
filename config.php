@@ -14,7 +14,7 @@ define('DB_PASS', '');
 define('DB_NAME', 'santhosh_travels');
 
 // App Configuration
-define('BASE_URL', '/santhosh-airtravels/');
+define('BASE_URL', '/santhoshairtravels/');
 define('APP_PATH', __DIR__ . '/app/');
 define('TEMPLATE_DIR', __DIR__ . '/templates/');
 define('FPDF_PATH', __DIR__ . '/fpdf/fpdf.php');

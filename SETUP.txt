@@ -27,7 +27,7 @@ Option A - Using phpMyAdmin (Easiest):
 Option B - Using Command Line:
 ──────────
 1. Open Command Prompt
-2. Navigate to project: cd C:\xampp\htdocs\santhosh-airtravels
+2. Navigate to project: cd C:\xampp\htdocs\santhoshairtravels
 3. Run: mysql -u root < db_setup.sql
 4. Done! Database is ready
 
@@ -36,7 +36,7 @@ Option B - Using Command Line:
 STEP 3: ACCESS THE APPLICATION
 ─────────────────────────────────────────────────────────────
 1. Open your browser
-2. Go to: http://localhost/santhosh-airtravels/
+2. Go to: http://localhost/santhoshairtravels/
 3. You should see the login page
 
 ═══════════════════════════════════════════════════════════════
@@ -67,7 +67,7 @@ Q: "Connection failed" error?
 A: Make sure MySQL is running in XAMPP (green status)
 
 Q: "404 Not Found"?
-A: Check URL is: http://localhost/santhosh-airtravels/
+A: Check URL is: http://localhost/santhoshairtravels/
 
 Q: Can't login?
 A: Verify database was imported (check phpmyadmin)
@@ -122,7 +122,7 @@ Option A - Using phpMyAdmin (Easiest):
 Option B - Using Command Line:
 ──────────
 1. Open Command Prompt
-2. Navigate to project: cd C:\xampp\htdocs\santhosh-airtravels
+2. Navigate to project: cd C:\xampp\htdocs\santhoshairtravels
 3. Run: mysql -u root < db_setup.sql
 4. Done! Database is ready
 
@@ -131,7 +131,7 @@ Option B - Using Command Line:
 STEP 3: ACCESS THE APPLICATION
 ─────────────────────────────────────────────────────────────
 1. Open your browser
-2. Go to: http://localhost/santhosh-airtravels/
+2. Go to: http://localhost/santhoshairtravels/
 3. You should see the login page
 
 ═══════════════════════════════════════════════════════════════
@@ -162,7 +162,7 @@ Q: "Connection failed" error?
 A: Make sure MySQL is running in XAMPP (green status)
 
 Q: "404 Not Found"?
-A: Check URL is: http://localhost/santhosh-airtravels/
+A: Check URL is: http://localhost/santhoshairtravels/
 
 Q: Can't login?
 A: Verify database was imported (check phpmyadmin)

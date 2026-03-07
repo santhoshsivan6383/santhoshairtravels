@@ -1,9 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /santhosh-airtravels/
+    RewriteBase /santhoshairtravels/
 
     # Allow access to assets, fpdf, pdfs directories
-    RewriteCond %{REQUEST_URI} ^/santhosh-airtravels/(assets|fpdf|pdfs)/ [NC]
+    RewriteCond %{REQUEST_URI} ^/santhoshairtravels/(assets|fpdf|pdfs)/ [NC]
     RewriteRule ^ - [L]
 
     # Map everything to index.php?route=$1

@@ -158,7 +158,7 @@ echo "<ol>
     <li>Open <a href='http://localhost/phpmyadmin' target='_blank'>phpMyAdmin</a></li>
     <li>Go to Import tab and select <strong>db_setup.sql</strong></li>
     <li>Click <strong>Go</strong> to import database</li>
-    <li><a href='http://localhost/santhosh-airtravels/login.php'>Try login page →</a></li>
+    <li><a href='http://localhost/santhoshairtravels/login.php'>Try login page →</a></li>
 </ol>";
 ?>
 =======
@@ -321,7 +321,7 @@ echo "<ol>
     <li>Open <a href='http://localhost/phpmyadmin' target='_blank'>phpMyAdmin</a></li>
     <li>Go to Import tab and select <strong>db_setup.sql</strong></li>
     <li>Click <strong>Go</strong> to import database</li>
-    <li><a href='http://localhost/santhosh-airtravels/login.php'>Try login page →</a></li>
+    <li><a href='http://localhost/santhoshairtravels/login.php'>Try login page →</a></li>
 </ol>";
 ?>
 >>>>>>> 698157819f01532cf88f5d177a949515bc2d2ba1

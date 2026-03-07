@@ -24,7 +24,7 @@ A complete flight ticket management system built with PHP, MySQL, and Bootstrap 
 ### Step 1: Extract Project Files
 Extract the project to your XAMPP htdocs directory:
 ```
-C:\xampp\htdocs\santhosh-airtravels\
+C:\xampp\htdocs\santhoshairtravels\
 ```
 
 ### Step 2: Start XAMPP Services
@@ -41,7 +41,7 @@ C:\xampp\htdocs\santhosh-airtravels\
    
    OR use MySQL command line:
    ```bash
-   cd C:\xampp\htdocs\santhosh-airtravels
+   cd C:\xampp\htdocs\santhoshairtravels
    mysql -u root < db_setup.sql
    ```
 
@@ -57,7 +57,7 @@ define('DB_NAME', 'santhosh_travels'); // Your database name
 ### Step 5: Access the Application
 Open your browser and go to:
 ```
-http://localhost/santhosh-airtravels/
+http://localhost/santhoshairtravels/
 ```
 
 ## 🔐 Default Login Credentials
@@ -70,7 +70,7 @@ http://localhost/santhosh-airtravels/
 ## 📝 Project Structure
 
 ```
-santhosh-airtravels/
+santhoshairtravels/
 ├── index.php              # Entry point (redirects to login/dashboard)
 ├── config.php             # Database configuration
 ├── login.php              # Login page
@@ -88,7 +88,7 @@ santhosh-airtravels/
 ## 🎯 How to Use
 
 ### 1. **Login**
-   - Open http://localhost/santhosh-airtravels/
+   - Open http://localhost/santhoshairtravels/
    - Enter demo credentials (admin/admin123)
 
 ### 2. **Create a New Ticket**
@@ -198,7 +198,7 @@ The application is fully responsive and works on:
 
 ### Issue: "404 Not Found"
 **Solution**:
-- Check project is in correct folder: `C:\xampp\htdocs\santhosh-airtravels\`
+- Check project is in correct folder: `C:\xampp\htdocs\santhoshairtravels\`
 - Restart Apache in XAMPP
 
 ### Issue: Login not working
@@ -226,7 +226,7 @@ This project is provided as-is for educational purposes.
 
 - [ ] XAMPP started (Apache + MySQL)
 - [ ] Database created and imported
-- [ ] Can access http://localhost/santhosh-airtravels/
+- [ ] Can access http://localhost/santhoshairtravels/
 - [ ] Can login with admin/admin123
 - [ ] Can create a new ticket
 - [ ] Can view ticket details
@@ -263,7 +263,7 @@ A complete flight ticket management system built with PHP, MySQL, and Bootstrap 
 ### Step 1: Extract Project Files
 Extract the project to your XAMPP htdocs directory:
 ```
-C:\xampp\htdocs\santhosh-airtravels\
+C:\xampp\htdocs\santhoshairtravels\
 ```
 
 ### Step 2: Start XAMPP Services
@@ -280,7 +280,7 @@ C:\xampp\htdocs\santhosh-airtravels\
    
    OR use MySQL command line:
    ```bash
-   cd C:\xampp\htdocs\santhosh-airtravels
+   cd C:\xampp\htdocs\santhoshairtravels
    mysql -u root < db_setup.sql
    ```
 
@@ -296,7 +296,7 @@ define('DB_NAME', 'santhosh_travels'); // Your database name
 ### Step 5: Access the Application
 Open your browser and go to:
 ```
-http://localhost/santhosh-airtravels/
+http://localhost/santhoshairtravels/
 ```
 
 ## 🔐 Default Login Credentials
@@ -309,7 +309,7 @@ http://localhost/santhosh-airtravels/
 ## 📝 Project Structure
 
 ```
-santhosh-airtravels/
+santhoshairtravels/
 ├── index.php              # Entry point (redirects to login/dashboard)
 ├── config.php             # Database configuration
 ├── login.php              # Login page
@@ -327,7 +327,7 @@ santhosh-airtravels/
 ## 🎯 How to Use
 
 ### 1. **Login**
-   - Open http://localhost/santhosh-airtravels/
+   - Open http://localhost/santhoshairtravels/
    - Enter demo credentials (admin/admin123)
 
 ### 2. **Create a New Ticket**
@@ -437,7 +437,7 @@ The application is fully responsive and works on:
 
 ### Issue: "404 Not Found"
 **Solution**:
-- Check project is in correct folder: `C:\xampp\htdocs\santhosh-airtravels\`
+- Check project is in correct folder: `C:\xampp\htdocs\santhoshairtravels\`
 - Restart Apache in XAMPP
 
 ### Issue: Login not working
@@ -465,7 +465,7 @@ This project is provided as-is for educational purposes.
 
 - [ ] XAMPP started (Apache + MySQL)
 - [ ] Database created and imported
-- [ ] Can access http://localhost/santhosh-airtravels/
+- [ ] Can access http://localhost/santhoshairtravels/
 - [ ] Can login with admin/admin123
 - [ ] Can create a new ticket
 - [ ] Can view ticket details
