@@ -24,7 +24,7 @@ A complete flight ticket management system built with PHP, MySQL, and Bootstrap 
 ### Step 1: Extract Project Files
 Extract the project to your XAMPP htdocs directory:
 ```
-C:\xampp\htdocs\santhoshairtravels\
+C:\xampp\htdocs\santhoshairtravels_new\
 ```
 
 ### Step 2: Start XAMPP Services
@@ -41,7 +41,7 @@ C:\xampp\htdocs\santhoshairtravels\
    
    OR use MySQL command line:
    ```bash
-   cd C:\xampp\htdocs\santhoshairtravels
+   cd C:\xampp\htdocs\santhoshairtravels_new
    mysql -u root < db_setup.sql
    ```
 
@@ -57,7 +57,7 @@ define('DB_NAME', 'santhosh_travels'); // Your database name
 ### Step 5: Access the Application
 Open your browser and go to:
 ```
-http://localhost/santhoshairtravels/
+http://localhost/santhoshairtravels_new/
 ```
 
 ## 🔐 Default Login Credentials
@@ -70,7 +70,7 @@ http://localhost/santhoshairtravels/
 ## 📝 Project Structure
 
 ```
-santhoshairtravels/
+santhoshairtravels_new/
 ├── index.php              # Entry point (redirects to login/dashboard)
 ├── config.php             # Database configuration
 ├── login.php              # Login page
@@ -88,7 +88,7 @@ santhoshairtravels/
 ## 🎯 How to Use
 
 ### 1. **Login**
-   - Open http://localhost/santhoshairtravels/
+   - Open http://localhost/santhoshairtravels_new/
    - Enter demo credentials (admin/admin123)
 
 ### 2. **Create a New Ticket**
@@ -198,7 +198,7 @@ The application is fully responsive and works on:
 
 ### Issue: "404 Not Found"
 **Solution**:
-- Check project is in correct folder: `C:\xampp\htdocs\santhoshairtravels\`
+- Check project is in correct folder: `C:\xampp\htdocs\santhoshairtravels_new\`
 - Restart Apache in XAMPP
 
 ### Issue: Login not working
@@ -226,7 +226,7 @@ This project is provided as-is for educational purposes.
 
 - [ ] XAMPP started (Apache + MySQL)
 - [ ] Database created and imported
-- [ ] Can access http://localhost/santhoshairtravels/
+- [ ] Can access http://localhost/santhoshairtravels_new/
 - [ ] Can login with admin/admin123
 - [ ] Can create a new ticket
 - [ ] Can view ticket details
@@ -263,7 +263,7 @@ A complete flight ticket management system built with PHP, MySQL, and Bootstrap 
 ### Step 1: Extract Project Files
 Extract the project to your XAMPP htdocs directory:
 ```
-C:\xampp\htdocs\santhoshairtravels\
+C:\xampp\htdocs\santhoshairtravels_new\
 ```
 
 ### Step 2: Start XAMPP Services
@@ -280,7 +280,7 @@ C:\xampp\htdocs\santhoshairtravels\
    
    OR use MySQL command line:
    ```bash
-   cd C:\xampp\htdocs\santhoshairtravels
+   cd C:\xampp\htdocs\santhoshairtravels_new
    mysql -u root < db_setup.sql
    ```
 
@@ -296,7 +296,7 @@ define('DB_NAME', 'santhosh_travels'); // Your database name
 ### Step 5: Access the Application
 Open your browser and go to:
 ```
-http://localhost/santhoshairtravels/
+http://localhost/santhoshairtravels_new/
 ```
 
 ## 🔐 Default Login Credentials
@@ -309,7 +309,7 @@ http://localhost/santhoshairtravels/
 ## 📝 Project Structure
 
 ```
-santhoshairtravels/
+santhoshairtravels_new/
 ├── index.php              # Entry point (redirects to login/dashboard)
 ├── config.php             # Database configuration
 ├── login.php              # Login page
@@ -327,7 +327,7 @@ santhoshairtravels/
 ## 🎯 How to Use
 
 ### 1. **Login**
-   - Open http://localhost/santhoshairtravels/
+   - Open http://localhost/santhoshairtravels_new/
    - Enter demo credentials (admin/admin123)
 
 ### 2. **Create a New Ticket**
@@ -437,7 +437,7 @@ The application is fully responsive and works on:
 
 ### Issue: "404 Not Found"
 **Solution**:
-- Check project is in correct folder: `C:\xampp\htdocs\santhoshairtravels\`
+- Check project is in correct folder: `C:\xampp\htdocs\santhoshairtravels_new\`
 - Restart Apache in XAMPP
 
 ### Issue: Login not working
@@ -465,7 +465,7 @@ This project is provided as-is for educational purposes.
 
 - [ ] XAMPP started (Apache + MySQL)
 - [ ] Database created and imported
-- [ ] Can access http://localhost/santhoshairtravels/
+- [ ] Can access http://localhost/santhoshairtravels_new/
 - [ ] Can login with admin/admin123
 - [ ] Can create a new ticket
 - [ ] Can view ticket details

@@ -1,13 +1,11 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /santhoshairtravels/
 
-    # Allow access to assets, fpdf, pdfs directories
-    RewriteCond %{REQUEST_URI} ^/santhoshairtravels/(assets|fpdf|pdfs)/ [NC]
+    # Allow access to files and directories that actually exist (assets, fpdf, pdfs, etc.)
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    # Map everything to index.php?route=$1
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
+    # Map everything else to index.php?route=$1
     RewriteRule ^(.*)$ index.php?route=$1 [QSA,L]
 </IfModule>
