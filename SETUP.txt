@@ -1,0 +1,94 @@
+🚀 QUICK SETUP GUIDE - Santhosh Air Travels
+
+Follow these exact steps to get started:
+
+═══════════════════════════════════════════════════════════════
+
+STEP 1: START XAMPP
+─────────────────────────────────────────────────────────────
+1. Open XAMPP Control Panel
+2. Click Start for Apache
+3. Click Start for MySQL
+4. Wait for both to show green "Running" status
+
+═══════════════════════════════════════════════════════════════
+
+STEP 2: SETUP DATABASE
+─────────────────────────────────────────────────────────────
+Option A - Using phpMyAdmin (Easiest):
+───────
+1. Go to http://localhost/phpmyadmin
+2. Click "Import" tab
+3. Choose file: db_setup.sql (from project folder)
+4. Click "Go" to import
+5. Done! Database is ready
+
+Option B - Using Command Line:
+──────────
+1. Open Command Prompt
+2. Navigate to project: cd C:\xampp\htdocs\santhosh-airtravels
+3. Run: mysql -u root < db_setup.sql
+4. Done! Database is ready
+
+═══════════════════════════════════════════════════════════════
+
+STEP 3: ACCESS THE APPLICATION
+─────────────────────────────────────────────────────────────
+1. Open your browser
+2. Go to: http://localhost/santhosh-airtravels/
+3. You should see the login page
+
+═══════════════════════════════════════════════════════════════
+
+STEP 4: LOGIN
+─────────────────────────────────────────────────────────────
+Username: admin
+Password: admin123
+
+Click Login!
+
+═══════════════════════════════════════════════════════════════
+
+✅ YOU'RE ALL SET!
+
+You can now:
+✓ Create new tickets
+✓ View ticket details  
+✓ Generate PDF tickets
+✓ Edit ticket information
+✓ See dashboard statistics
+
+═══════════════════════════════════════════════════════════════
+
+COMMON ISSUES:
+
+Q: "Connection failed" error?
+A: Make sure MySQL is running in XAMPP (green status)
+
+Q: "404 Not Found"?
+A: Check URL is: http://localhost/santhosh-airtravels/
+
+Q: Can't login?
+A: Verify database was imported (check phpmyadmin)
+
+Q: PDF not working?
+A: Click "Print or Save as PDF" button (uses browser printing)
+
+═══════════════════════════════════════════════════════════════
+
+📁 PROJECT FILES:
+
+config.php           - Database configuration
+login.php            - Login page
+dashboard.php        - Main ticket list
+add_ticket.php       - Create new ticket
+view_ticket.php      - View ticket details
+edit_ticket.php      - Edit ticket
+generate_pdf.php     - Generate PDF
+db_setup.sql         - Database setup file
+
+═══════════════════════════════════════════════════════════════
+
+For more details, read README.md file in the project folder!
+
+Happy ticketing! ✈️
