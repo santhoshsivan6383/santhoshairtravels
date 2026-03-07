@@ -55,12 +55,6 @@
                     <i class="bi bi-box-arrow-in-right"></i> Sign In
                 </button>
             </form>
-
-            <div class="demo-info">
-                <strong>Demo Credentials:</strong><br>
-                Username: <code>admin</code> &nbsp;|&nbsp; Password: <code>admin123</code>
-            </div>
-
             <div style="margin-top: 16px; text-align: center;">
                 <a href="#" onclick="App.route('reset'); return false;" style="color: var(--primary); font-size: 13px; font-weight: 500;">
                     <i class="bi bi-key"></i> Reset Password
