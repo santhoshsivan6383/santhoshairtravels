@@ -51,7 +51,7 @@
                     <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
                 </div>
 
-                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px;" id="loginBtn">
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px;" id="loginBtn">
                     <i class="bi bi-box-arrow-in-right"></i> Sign In
                 </button>
             </form>
